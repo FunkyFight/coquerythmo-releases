@@ -1,6 +1,21 @@
 # coquerythmo-releases
 Bande rythmo simple, épurée et optimisée. Tout ça, gratuitement.
 
+## Version 3.5.4
+
+Cette version améliore fortement l’accessibilité clavier et la lecture vocale.
+Sous Windows, les annonces sont transmises au système d’accessibilité via
+AccessKit. Les raccourcis utilisés sont annoncés automatiquement, les listes
+annoncent leur premier élément puis leur état « réduite » à la fermeture, et
+les modales annoncent leur fermeture.
+
+Avec la lecture vocale active sous Windows, les sélecteurs de fichiers utilisent
+l’Explorateur Windows natif. Les projets `.coquerythmo` peuvent également être
+ouverts avec Coquerythmo depuis le menu « Ouvrir avec » de Windows.
+
+La liste complète des raccourcis est disponible dans
+[`RACCOURCIS_CLAVIER.md`](RACCOURCIS_CLAVIER.md).
+
 ## Tutoriels
 [![Tutoriel français](https://img.youtube.com/vi/m_SpxXRjvmg/maxresdefault.jpg)](https://www.youtube.com/watch?v=m_SpxXRjvmg)
 [Tutoriel français](https://www.youtube.com/watch?v=m_SpxXRjvmg)
@@ -16,6 +31,9 @@ Bande rythmo simple, épurée et optimisée. Tout ça, gratuitement.
 Les raccourcis sont interprétés selon le contexte actif. Un champ texte est
 prioritaire sur les raccourcis de l’espace de travail. Dans une modale, le
 focus reste enfermé dans la modale jusqu’à sa fermeture.
+
+Chaque raccourci clavier utilisé est annoncé automatiquement, y compris dans
+les champs texte et les modales.
 
 ### Navigation commune
 
@@ -66,19 +84,21 @@ ouvre le projet, `Suppr` le retire de la liste et `Échap` ferme la liste.
 | `Numpad 6` | Ajouter une note |
 | `Numpad 7` / `Numpad 8` | Ajouter une liaison à gauche/droite |
 | `Numpad 9` | Activer/désactiver le karaoké |
+| `Ctrl + Numpad 1` à `Ctrl + Numpad 4` | Créer une ligne sur la piste 1 à 4 |
 | `C` | Outil Sélection |
 | `Ctrl + D` | Outil Dessin |
 | `Maj + ↑` / `Maj + ↓` | Augmenter/diminuer le volume par pas de 5 % |
 | `Maj + Numpad -` | Activer/désactiver le muet |
 | `Espace` | Lecture/pause |
+| `Ctrl + Tab` | Basculer entre l’audio original et l’audio instrumental |
 
 ### Bande rythmo
 
 | Raccourci | Action |
 |---|---|
-| `Insert` | Créer une ligne au curseur |
 | `Entrée` | Sélectionner successivement les lignes présentes au frame courant |
 | `↑` / `↓` (ligne sélectionnée) | Déplacer la ligne vers la piste précédente/suivante |
+| `Maj + ←` / `Maj + →` (ligne sélectionnée) | Décaler la ligne d’une frame |
 | `I` / `O` | Fixer le début/la fin de la ligne sélectionnée |
 | `Q` / `D` (maintenir) | Déplacer continuellement la timeline à gauche/droite |
 | `T` | Modifier le texte de la ligne sélectionnée |
@@ -128,10 +148,16 @@ valide l’action principale.
 | Raccourci | Action |
 |---|---|
 | `Ctrl + Maj + N` | Activer/désactiver la lecture vocale interne |
+| `Ctrl` | Interrompre la lecture vocale en cours |
+| `Maj` | Reprendre la lecture vocale interrompue |
 
 Chaque changement de focus, sélection, activation, valeur et résultat d’action
 est annoncé. Pour `Q`/`D`, le timecode est annoncé une seule fois au
 relâchement de la touche, avec les heures, minutes, secondes et centièmes.
+
+L’ouverture d’une liste annonce son premier élément disponible. Sa fermeture
+annonce que la liste est réduite. La fermeture d’une modale est également
+annoncée.
 
 Sur Linux, la lecture vocale interne reste indisponible et le raccourci affiche
 un message localisé.
