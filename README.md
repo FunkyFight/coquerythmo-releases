@@ -4,7 +4,7 @@ Bande rythmo simple, épurée et optimisée. Tout ça, gratuitement.
 ## Version 3.7.1
 
 Cette version ajoute des émotions au texte
-[!Émotion de texte](https://media.discordapp.net/attachments/1523988880464806028/1530889606327963749/demo_texte_emotion.gif?ex=6a67378c&is=6a65e60c&hm=92c33043bb924d0e0e97bca2b237da17731baca077dff74f39bbaf7692be6716&=)
+![Émotion de texte](https://media.discordapp.net/attachments/1523988880464806028/1530889606327963749/demo_texte_emotion.gif?ex=6a67378c&is=6a65e60c&hm=92c33043bb924d0e0e97bca2b237da17731baca077dff74f39bbaf7692be6716&=)
 
 ## Tutoriels
 [![Tutoriel français](https://img.youtube.com/vi/m_SpxXRjvmg/maxresdefault.jpg)](https://www.youtube.com/watch?v=m_SpxXRjvmg)
