@@ -1,20 +1,9 @@
 # coquerythmo-releases
 Bande rythmo simple, épurée et optimisée. Tout ça, gratuitement.
 
-## Version 3.5.4
+## Version 3.7.1
 
-Cette version améliore fortement l’accessibilité clavier et la lecture vocale.
-Sous Windows, les annonces sont transmises au système d’accessibilité via
-AccessKit. Les raccourcis utilisés sont annoncés automatiquement, les listes
-annoncent leur premier élément puis leur état « réduite » à la fermeture, et
-les modales annoncent leur fermeture.
-
-Avec la lecture vocale active sous Windows, les sélecteurs de fichiers utilisent
-l’Explorateur Windows natif. Les projets `.coquerythmo` peuvent également être
-ouverts avec Coquerythmo depuis le menu « Ouvrir avec » de Windows.
-
-La liste complète des raccourcis est disponible dans
-[`RACCOURCIS_CLAVIER.md`](RACCOURCIS_CLAVIER.md).
+Cette version ajoute des émotions au texte
 
 ## Tutoriels
 [![Tutoriel français](https://img.youtube.com/vi/m_SpxXRjvmg/maxresdefault.jpg)](https://www.youtube.com/watch?v=m_SpxXRjvmg)
