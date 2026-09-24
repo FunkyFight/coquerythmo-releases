@@ -1,6 +1,8 @@
 # coquerythmo-releases
 Bande rythmo simple, épurée et optimisée. Tout ça, gratuitement.
 
++ d'info : https://coquelicot.world
+
 ## Version 3.7.1
 
 Cette version ajoute des émotions au texte
